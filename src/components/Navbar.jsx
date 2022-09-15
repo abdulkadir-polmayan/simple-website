@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { logo, close, menu } from "../assets";
+import { logo, close, menu,people03 } from "../assets";
 import { navLinks } from "../constants/index";
 
 const Navbar = () => {
@@ -25,9 +25,9 @@ const Navbar = () => {
   ));
 
   return (
-    <div className="bg-primary px-6 pt-7 pb-3 flex justify-center items-center">
-      <nav className="bg-red-600 w-full flex justify-between items-center">
-        <img src={logo} className="w-[120px]" />
+    <div className="bg-primary px-6 pt-3 pb-3 flex justify-center items-center">
+      <nav className=" w-full flex justify-between items-center">
+        <img src={people03} className="w-12" />
         <ul className="list-none flex justify-end item-center sm:flex hidden">
           {linksDesktop}
         </ul>
