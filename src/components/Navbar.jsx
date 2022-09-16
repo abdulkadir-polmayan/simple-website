@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { logo, close, menu,people03 } from "../assets";
+import { logo, close, menu, people03 } from "../assets";
 import { navLinks } from "../constants/index";
 
 const Navbar = () => {
@@ -32,7 +32,6 @@ const Navbar = () => {
           {linksDesktop}
         </ul>
 
-
         <div className="sm:hidden flex">
           <img
             src={toggle ? close : menu}
@@ -43,11 +42,9 @@ const Navbar = () => {
           <div
             className={`${
               toggle ? "flex" : "hidden"
-            } bg-slate-400 absolute right-0 top-[4.5rem] p-6 min-w-5`}
+            } bg-black absolute right-0 top-[4.5rem] p-6 min-w-5 rounded-xl m-3 sidebar`}
           >
-            <ul>
-              {linksMobile}
-            </ul>
+            <ul>{linksMobile}</ul>
           </div>
         </div>
       </nav>
