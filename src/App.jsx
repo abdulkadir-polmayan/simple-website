@@ -1,6 +1,6 @@
 import styles from "./styles";
 import { useState } from "react";
-import { Navbar, Hero, Billing, Stats } from "./components";
+import { Navbar, Hero, Billing, Stats, Business } from "./components";
 const App = () => {
   const [blog, setBlog] = useState(false);
 
@@ -9,6 +9,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Stats />
+      <Business />
       <Billing />
     </div>
   );

@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Billing = () => {
   return (
-    <div className='flex justify-center m-44'>
-    
-
+    <div>
+      <div className="heading">
+        <div className="text ">
+          
+        </div>
+        <div className="stores"></div>
+      </div>
+      <div className="cards"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Billing
+export default Billing;

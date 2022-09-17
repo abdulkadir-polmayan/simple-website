@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=" flex my-3 rounded-lg  ">
-        <img src={robot} className="w-full h-full" />
+        <img src={robot} className="w-[%100] h-[%100]" />
       </div>
     </section>
   );
