@@ -3,7 +3,7 @@ import { google, apple, bill } from "../assets/index";
 
 const Billing = () => {
   return (
-    <div className="bg-primary text-white flex flex-col-reverse lg:flex-row">
+    <div className="bg-primary text-white flex flex-col-reverse lg:justify-center lg:px-40 lg:items-center lg:flex-row">
       <div className="cards flex-1 p-10">
         <img src={bill} />
       </div>

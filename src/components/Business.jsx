@@ -10,12 +10,14 @@ const Business = () => {
       </div>
       <div className="flex-1 flex flex-col ml-3">
         <h1 className="text-2xl font-semibold">{props.title}</h1>
-        <p className="text-dimWhite max-w-sm leading-relaxed">{props.content}</p>
+        <p className="text-dimWhite max-w-sm leading-relaxed">
+          {props.content}
+        </p>
       </div>
     </div>
   );
   return (
-    <div className="business bg-primary font-poppins flex flex-col lg:flex-row   text-white pt-20 p-5">
+    <div className="business bg-primary font-poppins lg:px-40 flex flex-col lg:flex-row   text-white pt-20 p-5">
       <div className="header flex flex-col p-5 flex-1">
         <h1 className="text-6xl leading-normal font-extrabold pb-3">
           You do the business, we’ll handle the money.

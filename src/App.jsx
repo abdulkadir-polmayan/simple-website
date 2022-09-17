@@ -1,6 +1,6 @@
 import styles from "./styles";
 import { useState } from "react";
-import { Navbar, Hero, Billing, Stats, Business } from "./components";
+import { Navbar, Hero, Billing, Stats, Business, CardDeal } from "./components";
 const App = () => {
   const [blog, setBlog] = useState(false);
 
@@ -11,6 +11,7 @@ const App = () => {
       <Stats />
       <Business />
       <Billing />
+      <CardDeal />
     </div>
   );
 };

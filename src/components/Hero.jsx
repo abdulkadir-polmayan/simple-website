@@ -2,7 +2,7 @@ import React from "react";
 import { robot } from "../assets/index";
 const Hero = () => {
   return (
-    <section className="md:grid md:grid-cols-2 py-10 bg-primary">
+    <section className="md:grid md:grid-cols-2 py-10 lg:px-40 bg-primary">
       <div className="mb-20 rounded-lg p-5  ">
         <div className="flex justify-center md:justify-start items-center my-10">
           <p className="bg-indigo-900 text-lg  px-2 text-center text-white rounded flex">
