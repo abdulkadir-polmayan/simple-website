@@ -7,6 +7,7 @@ import CardDeal from "./CardDeal";
 import Testimonials from "./Testimonials";
 import Companies from "./Companies";
 import Try from "./Try";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Testimonials,
   Companies,
   Try,
+  Footer
 };

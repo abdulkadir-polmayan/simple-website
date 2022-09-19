@@ -3,7 +3,7 @@ import { people02 } from "../assets/index";
 
 const Testimonials = () => {
   const peoples = (
-    <div className="flex flex-col p-10 max-w-[370px] min-w-[370px]">
+    <div className="flex  hover:bg-slate-600 rounded-3xl transition  flex-col p-10 max-w-[370px] min-w-[370px]">
       <div className="text-9xl max-h-[80px]">"</div>
       <p className="text-xl leading-relaxed mb-8">
         Money is only a tool. It will take you wherever you wish, but it will

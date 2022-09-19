@@ -2,8 +2,8 @@ import React from "react";
 
 const Try = () => {
   return (
-    <div className="bg-slate-700 m-20 rounded-3xl p-3 text-white flex flex-col lg:flex-row">
-      <div className="header flex justify-center item-center flex-col flex-1 p-10">
+    <div className="bg-slate-700 lg:m-20 m-10 rounded-3xl p-3 text-white flex flex-col lg:flex-row">
+      <div className="header flex justify-center item-center flex-col flex-1 lg:p-10 p-5">
         <h1 className="text-5xl leading-normal font-semibold pb-3">
           You do the business, we’ll.
         </h1>

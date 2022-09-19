@@ -10,12 +10,13 @@ import {
   Testimonials,
   Companies,
   Try,
+  Footer,
 } from "./components";
 const App = () => {
   const [blog, setBlog] = useState(false);
 
   return (
-    <div className=" w-full overflow-hidden bg-primary">
+    <div className=" w-full overflow-hidden bg-primary font-poppins">
       <Navbar />
       <Hero />
       <Stats />
@@ -25,6 +26,7 @@ const App = () => {
       <Testimonials />
       <Companies />
       <Try />
+      <Footer />
     </div>
   );
 };
