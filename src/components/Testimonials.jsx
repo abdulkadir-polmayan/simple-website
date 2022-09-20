@@ -19,7 +19,7 @@ const Testimonials = () => {
     </div>
   );
   return (
-    <div className="bg-primary text-white font-poppins">
+    <div id="clients" className="bg-primary text-white font-poppins">
       <div className="header text-white flex item-center justify-around flex-col lg:flex-row p-10 lg:px-40 ">
         <h1 className="text-5xl leading-normal font-semibold pb-3 flex-1">
           What people are <br className="hidden lg:block"></br> saying about us

@@ -11,7 +11,7 @@ const Navbar = () => {
       className={`text-[16px] ml-10 text-white font-poppins font-normal
         ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} cursor-pointer`}
     >
-      <a href={`#${item.id}`}>{item.title}</a>
+      <a href="#clients">clients</a>
     </li>
   ));
   const linksMobile = navLinks.map((item, index) => (
@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="bg-primary px-6 pt-3 pb-3 flex justify-center items-center">
       <nav className=" w-full flex justify-between items-center">
-        <img src={people03} className="w-12" />
+        <img src={logo} className="w-[150px]" />
         <ul className="list-none flex justify-end item-center sm:flex hidden">
           {linksDesktop}
         </ul>
